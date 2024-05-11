@@ -101,8 +101,8 @@ function setMap1v1Futsal() {
 }
 function setMap4v4Futsal() {
     if (currentMap == map4v4futsal) return;
-    room.setScoreLimit(0);
-    room.setTimeLimit(0);
+    room.setScoreLimit(4);
+    room.setTimeLimit(4);
     room.setCustomStadium(map4v4futsal);
     currentMap = map4v4futsal;
 }
